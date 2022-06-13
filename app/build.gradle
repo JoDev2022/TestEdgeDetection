@@ -32,7 +32,7 @@ dependencies {
 allprojects {
     repositories {
         maven {
-            url "https://jitpack.io", "https://maven.google.com"
+            url "https://jitpack.io"
         }
     }
 }
