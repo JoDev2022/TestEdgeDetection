@@ -33,14 +33,14 @@ android {
     }
 }
 
-buildscript {
+/*buildscript {
 
     dependencies {
 
         files(path:':openCVLibrary343')
 
     }
-}
+}*/
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
