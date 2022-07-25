@@ -40,7 +40,8 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.0.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
     // implementation (':openCVLibrary343') { transitive=true }
-    implementation project(path:':openCVLibrary343')
+//    implementation project(path:':openCVLibrary343')
+    implementation project(':openCVLibrary343')
 }
 
 project.afterEvaluate {
