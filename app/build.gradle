@@ -33,6 +33,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
     implementation project(':liveedgedetection')
     implementation project(':openCVLibrary343')
+    // test
 }
 
 allprojects {
