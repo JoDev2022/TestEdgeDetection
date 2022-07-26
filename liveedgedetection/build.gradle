@@ -50,7 +50,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
     // implementation (':openCVLibrary343') { transitive=true }
 //    implementation project(path:':openCVLibrary343')
-    implementation project(':openCVLibrary343')
+//    implementation project(':openCVLibrary343')
+    implementation(project(':openCVLibrary343')) {
+        transitive=true
+    }
 }
 
 project.afterEvaluate {
