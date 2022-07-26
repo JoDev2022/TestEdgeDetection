@@ -33,11 +33,12 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.0.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
-//    implementation project(':liveedgedetection')
+    implementation project(':liveedgedetection')
 
-    implementation(project(':liveedgedetection')) {
-        transitive=true
-    }
+    implementation project(':openCVLibrary343')
+//    implementation(project(':liveedgedetection')) {
+//        transitive=true
+//    }
     // test
 }
 
